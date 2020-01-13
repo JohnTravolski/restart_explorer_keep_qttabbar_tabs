@@ -13,6 +13,11 @@ echo Starting Explorer...
 start explorer.exe
 echo.
 
+:: https://stackoverflow.com/a/1672349
+ping 127.0.0.1 -n 2 > nul
+echo Opening Explorer...
 %SystemRoot%\explorer.exe
-
-"send_shortcut.ahk"
+ping 127.0.0.1 -n 2 > nul
+echo Opening read.js...
+read.js
+echo Finsihed everything!
