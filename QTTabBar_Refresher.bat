@@ -19,5 +19,5 @@ echo Opening Explorer...
 %SystemRoot%\explorer.exe
 ping 127.0.0.1 -n 2 > nul
 echo Opening read.js...
-read.js
+C:\Windows\System32\cscript.exe read.js
 echo Finsihed everything!

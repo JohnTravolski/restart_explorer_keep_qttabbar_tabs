@@ -11,4 +11,4 @@ Finally, change the line:
 in "restart_explorer.js" to the absolute path of the QTTabBar_Referesher.bat file
 (such as `objShell.run('"C:\\Users\\John\\QTTabBar_Refresher.bat" ' + str);`)
 
-As of now, this has been tested on Windows 10 v1607 Build 14393.
+As of now, this has been tested and works on Windows 10 v1607 Build 14393 and v1809 Build 17763.
